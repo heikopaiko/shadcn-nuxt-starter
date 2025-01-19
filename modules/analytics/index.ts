@@ -1,4 +1,4 @@
-import { createResolver, defineNuxtModule, addImportsDir } from 'nuxt/kit'
+import { addImportsDir, createResolver, defineNuxtModule } from 'nuxt/kit'
 
 const providerPath = './provider/google'
 

@@ -29,7 +29,6 @@ definePageMeta({
       <div class="doc">
         <ContentRenderer :value="doc" />
       </div>
-
     </div>
 
     <div class="hidden text-sm xl:block">

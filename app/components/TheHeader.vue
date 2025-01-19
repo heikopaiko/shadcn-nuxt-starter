@@ -121,7 +121,7 @@ function handleSelectLink(item: any) {
 <template>
   <header class="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-lg">
     <div
-      class="h-14 max-w-screen-2xl mx-auto flex items-center px-4"
+      class="mx-auto h-14 max-w-screen-2xl flex items-center px-4"
     >
       <div class="mr-4 hidden md:mr-1 md:flex">
         <Logo />
