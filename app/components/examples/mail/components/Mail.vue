@@ -39,7 +39,6 @@ const filteredMailList = computed(() => {
     output = props.mails.filter((item) => {
       return item.name.includes(debouncedSearch.value)
         || item.email.includes(debouncedSearch.value)
-        || item.name.includes(debouncedSearch.value)
         || item.subject.includes(debouncedSearch.value)
         || item.text.includes(debouncedSearch.value)
     })

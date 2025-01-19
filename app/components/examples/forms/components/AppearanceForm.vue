@@ -65,7 +65,7 @@ const onSubmit = handleSubmit((values) => {
               </option>
             </select>
           </FormControl>
-          <ChevronDownIcon class="pointer-events-none absolute right-3 top-2.5 h-4 w-4 opacity-50" />
+          <Icon name="radix-icons:chevron-down" class="pointer-events-none absolute right-3 top-2.5 h-4 w-4 opacity-50" />
         </div>
         <FormDescription>
           Set the font you want to use in the dashboard.

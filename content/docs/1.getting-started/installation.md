@@ -28,6 +28,6 @@ Start the dev server:
 pnpm dev
 ```
 
-You should now be able to access the application with live reload at http://127.0.0.1:7000.
+You should now be able to access the application with live reload at http://localhost:3000.
 
 </Steps>

@@ -9,6 +9,9 @@ import { ConfigProvider } from 'radix-vue'
 import { appName } from '@/config/site'
 import Toaster from '@/components/ui/toast/Toaster.vue'
 
+const { analyticsInit } = useAnalytics()
+analyticsInit()
+
 // https://github.com/radix-vue/radix-vue/issues/577
 // fix: nuxt hydration node mismatch no longer breaks UI (#296) - waitting Vue 3.5...
 const useIdFunction = () => useId()
