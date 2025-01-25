@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   debug: true,
 
   devtools: {
-    enabled: false,
+    enabled: true,
   },
 
   future: {
